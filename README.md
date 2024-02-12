@@ -64,7 +64,7 @@ Work on the problem (at least a toy version) of problem of your choice. If you d
 4. Develop the CNN architecture for the problem: Autoencoders
 5. Go through the code, line-by-line
 6. Run the code for various learning rates
-7. Plot beutiful images
+7. Plot beautiful images
 
 ## Lecture 3
 1. Any queries?
@@ -76,4 +76,5 @@ Work on the problem (at least a toy version) of problem of your choice. If you d
 1. CNN in pytorch: https://medium.com/thecyphy/train-cnn-model-with-pytorch-21dafb918f48
 2. Autoencoders in pytorch: https://stackoverflow.com/questions/65260432/how-to-create-a-neural-network-that-takes-in-an-image-and-ouputs-another-image
 3. Autoencoders for colorizing images: https://github.com/Keramatfar/image-colorizing-with-auto-encoder/blob/main/01.ipynb
+4. PyTorch Syntax: https://youtu.be/n8Mey4o8gLc?si=ilVF1RRdZjZVEBNe
 
