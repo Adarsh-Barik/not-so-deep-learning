@@ -10,30 +10,34 @@
 </p>
 
 <h2> </h2>
+This mini-course offers an introduction to practical deep learning applications. Over three lectures, we'll delve into the fundamentals of Convolutional Neural Networks (CNNs) using PyTorch, guiding you through an end-to-end implementation process. Each lecture is designed towards understading basics of deep learning, with a duration of approximately 1 to 1.5 hours. By the end of this course, you'll have a basic understanding of CNNs and the skills to apply them in various real-world scenarios.
 
-This is a minicourse to learn basics of application oriented deep-learning. In this minicourse we will learn an end-to-end implementation of a convolutional neural network (CNN) in pytorch. The course is divided in 3 lectures, each taking roughly 1-1.5 hours to complete.
 
 ## Task
-We aim to learn the flow profile of a radial flow from a camera captured image. All images are generated synthetically. The input image looks like below:
+Our objective is to extract the flow profile of a radial flow based on images captured by a camera. These images are synthetically generated. The input image appears as follows:
+<br/>
 <img src="images/input/input_0.jpg" alt="input">
-Our task is to learn the corresponding flow profile which looks like below:
+Our goal is to understand and reproduce the corresponding flow profile, depicted below:
+<br/>
 <img src="images/output/output_0.jpg" alt="input">
 
-The CNN not only learns the flow profile but it also implicitly figures out the location of the source.
+Remarkably, the CNN not only discerns the flow profile but also implicitly identifies the source's location.
 
 ## Preliminaries
 
-Before we begin, it might help to complete the following tasks:
-1. Clone the git repository.
-2. Learn how to get minima of a one variable function. For example: f(x) = x^2, f(x) = x^3
-3. Install python and the following packages: torch, torchvision, numpy, matplotlib
-4. Run 'hello_world.py'
-5. Most importantly, have a problem that you want to solve using deep learning. It need not be an original problem. It can be a toy version of a problem from a research paper. You should focus more on a formalizing the problem. You would need answers to the following questions:
-    1. What is your input? - images, texts, videos?
-    2. What is your output? - images, texts, videos, number?
-    3. How many (input, output) pairs do you have?
-    4. What are the dimensions of your input and output?
-    5. Do you have a basic understanding of input-output relationship? It could be a conjecture which might or might not be correct.
+Before we begin, let's ensure we've completed the following preparatory tasks:
+
+1. **Clone the Git Repository**: Fetch the necessary codebase from the Git repository to access the required scripts and modules.
+2. **Familiarize with Finding Minima**: Understand how to find minima of a one-variable function. For instance, explore functions like 'f(x) = x^2' or 'f(x) = x^3'.
+3. **Install Python and Essential Packages**: Install Python along with essential packages like Torch, Torchvision, NumPy, and Matplotlib to facilitate deep learning operations.
+4. **Execute 'hello_world.py'**: Run the 'hello_world.py' script to ensure that your environment is properly set up and functional.
+5. **Identify a Problem for Deep Learning**: Have a problem in mind that you wish to solve using deep learning techniques. It doesn't necessarily have to be an original problem; it could be a simplified version of a problem outlined in a research paper. Focus primarily on formalizing the problem by addressing the following questions:
+    1. Input Data: Determine the type of input data (e.g., images, texts, videos) required for your problem.
+    2. Output Data: Identify the desired output format (e.g., images, texts, videos, numerical values).
+    3. Dataset Size: Assess the number of available input-output pairs for training your model.
+    4. Data Dimensions: Understand the dimensions of both input and output data.
+    5. Understanding of Input-Output Relationship: Formulate a basic understanding or hypothesis regarding the relationship between input and output data. This could be a conjecture that requires validation through experimentation.
+
 
 ## Lecture 1
 1. Example: Decide when to give loan as a bank
