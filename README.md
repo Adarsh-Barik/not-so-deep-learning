@@ -17,6 +17,7 @@ This mini-course offers an introduction to practical deep learning applications.
 Our objective is to extract the flow profile of a radial flow based on images captured by a camera. These images are synthetically generated. The input image appears as follows:
 <br/>
 <img src="images/input/input_0.jpg" alt="input">
+<br/>
 Our goal is to understand and reproduce the corresponding flow profile, depicted below:
 <br/>
 <img src="images/output/output_0.jpg" alt="input">
