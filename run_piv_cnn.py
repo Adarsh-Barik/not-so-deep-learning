@@ -18,8 +18,8 @@ from matplotlib import pyplot as plt
 
 # loading the data
 # directories must have structure input/class, here we do not need class but we create one nevertheless
-input_dir="/Users/adarsh/LocalStorage/Research/Tutorial/Not-So-Deep-Learning/images/inputimages/"
-output_dir="/Users/adarsh/LocalStorage/Research/Tutorial/piv_cnn/images/outputimages/"
+input_dir="/Users/adarsh/LocalStorage/Research/Tutorial/not-so-deep-learning/images/inputimages/"
+output_dir="/Users/adarsh/LocalStorage/Research/Tutorial/not-so-deep-learning/images/outputimages/"
 
 # input images, loaded in two parts, X[i] = tensor, label
 # only need tensor part for training
@@ -175,6 +175,13 @@ opt_func = torch.optim.Adam
 lr = 0.00005
 
 history = fit(maxIter, lr, model, train_X_data, train_Y_data, val_X_data, val_Y_data, opt_func)
+
+# store the model
+torch.save(model.state_dict(), './data/storedmodel')
+
+# to load
+# model = ImageGenModel()
+# model.load_state_dict(torch.load('./data/storedmodel'))
 
 def displayimg(i, model=model, X = val_X_data, Y = val_Y_data):
     x, a = X[i]
