@@ -18,8 +18,8 @@ from matplotlib import pyplot as plt
 
 # loading the data
 # directories must have structure input/class, here we do not need class but we create one nevertheless
-input_dir="/Users/adarsh/LocalStorage/Research/Tutorial/piv_cnn/input/images/inputimages/"
-output_dir="/Users/adarsh/LocalStorage/Research/Tutorial/piv_cnn/input/images/outputimages/"
+input_dir="/Users/adarsh/LocalStorage/Research/Tutorial/Not-So-Deep-Learning/images/inputimages/"
+output_dir="/Users/adarsh/LocalStorage/Research/Tutorial/piv_cnn/images/outputimages/"
 
 # input images, loaded in two parts, X[i] = tensor, label
 # only need tensor part for training
