@@ -16,11 +16,11 @@ This mini-course offers an introduction to practical deep learning applications.
 ## Task
 Our objective is to extract the flow profile of a radial flow based on images captured by a camera. These images are synthetically generated. The input image appears as follows:
 <br/>
-<img src="images/input/input_0.jpg" alt="input">
+<img src="images/inputimages/input/input_0.jpg" alt="input">
 <br/>
 Our goal is to understand and reproduce the corresponding flow profile, depicted below:
 <br/>
-<img src="images/output/output_0.jpg" alt="input">
+<img src="images/outputimages/output/output_0.jpg" alt="input">
 
 Remarkably, the CNN not only discerns the flow profile but also implicitly identifies the source's location.
 
@@ -55,7 +55,7 @@ Before we begin, let's ensure we've completed the following preparatory tasks:
 12. Make sure 'hello_world.py' runs
 
 ### Homework
-Work on the problem (at least a toy version) of problem of your choice. If you do not have one in mind, then take the input images from the input folder and construct a CNN that figures out the coordianates of the source. You can use 'data/seed_pts.dat' as your output data for training/validation.
+Work on the problem (at least a toy version) of problem of your choice. If you do not have one in mind, then take the input images from the input folder and construct a CNN that figures out the coordinates of the source. You can use 'data/seed_pts.dat' as your output data for training/validation.
 
 ## Lecture 2
 1. Introduction to CNN
